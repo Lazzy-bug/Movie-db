@@ -76,7 +76,7 @@ header .menu{
     letter-spacing: 10px;
 }
 .slider .list .item .content h2{
-    font-size: 100px;
+    font-size: 40px;
     margin: 0;
 }
 .slider .list .item.active{
@@ -171,4 +171,20 @@ header .menu{
     .arrows{
         top: 10%;
     }
+}
+
+.trailer-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff1e1e21;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.trailer-btn:hover {
+    background-color: #c03;
 }
